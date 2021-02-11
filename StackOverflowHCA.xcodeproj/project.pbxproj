@@ -15,6 +15,7 @@
 		2820577625D5961800C2835E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2820577425D5961800C2835E /* LaunchScreen.storyboard */; };
 		2820578125D5961800C2835E /* StackOverflowHCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820578025D5961800C2835E /* StackOverflowHCATests.swift */; };
 		2820578C25D5961800C2835E /* StackOverflowHCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820578B25D5961800C2835E /* StackOverflowHCAUITests.swift */; };
+		2820579D25D5971500C2835E /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820579C25D5971500C2835E /* QuestionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2820578725D5961800C2835E /* StackOverflowHCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackOverflowHCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2820578B25D5961800C2835E /* StackOverflowHCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowHCAUITests.swift; sourceTree = "<group>"; };
 		2820578D25D5961800C2835E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2820579C25D5971500C2835E /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2820577225D5961800C2835E /* Assets.xcassets */,
 				2820577425D5961800C2835E /* LaunchScreen.storyboard */,
 				2820577725D5961800C2835E /* Info.plist */,
+				2820579C25D5971500C2835E /* QuestionTableViewCell.swift */,
 			);
 			path = StackOverflowHCA;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2820576E25D5961600C2835E /* ViewController.swift in Sources */,
+				2820579D25D5971500C2835E /* QuestionTableViewCell.swift in Sources */,
 				2820576A25D5961600C2835E /* AppDelegate.swift in Sources */,
 				2820576C25D5961600C2835E /* SceneDelegate.swift in Sources */,
 			);
